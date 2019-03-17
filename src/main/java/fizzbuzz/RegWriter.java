@@ -30,7 +30,7 @@ public class RegWriter {
     //METODOS
     public void writeReg() {
     	try {
-    		FileWriter fw = new FileWriter("registro.txt", true);
+    		FileWriter fw = new FileWriter("resources/register.txt", true);
     		PrintWriter pw = new PrintWriter(fw);
     		pw.println(this.Fizzbuzz.toString());
     		pw.println(this.date.toString());

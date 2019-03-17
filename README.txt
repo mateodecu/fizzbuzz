@@ -3,13 +3,13 @@
 =======================================
 
 Fizzbuzz is a RESTful webservice application designed to fulfill the necessity of
-generating new Fizzbuzz series in any given situation
+generating new Fizzbuzz series in any given situation.
 
 What are Fizzbuzz series?
 
 When counting forward from any given number, the series must be constructed by replacing
 every number divisible by three, with the word “Fizz”; any number divisible by five,
-with the word “Buzz”; and any number divisible by both, with the word “Fizzbuzz”
+with the word “Buzz”; and any number divisible by both, with the word “Fizzbuzz”.
 
 The Fizzbuzz application allows the user to set a starting number for the series and
 its length, and by submitting the form, the application will return a Json array with
@@ -34,9 +34,11 @@ Sring Framework........................https://spring.io/
 Resources:
 ==========
 
-The application can be tested by running the application in any Java IDE (developer
-recommends Eclipse IDE), and then running the Fizzbuzz HTML file located int he resources
-file.
+The application can be tested by running it in any Java IDE (developer recommends
+Eclipse IDE), and then running the Fizzbuzz HTML file located int he resources file.
+
+The register file created by the RegWriter class is also located in the resources
+file. If this file is deleted, a new file will be created upon next application run.
 
 
 Contact:
